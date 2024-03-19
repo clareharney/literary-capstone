@@ -1,34 +1,23 @@
 import "./Book.css"
-import { deleteBook, getAllBooks } from "../../services/bookService.jsx"
 
-export const Book = ({book, currentUser, getAndSetBooks, bookshelf}) => {
-
-    const handleFavorite = () => {
-
-    }
-
-    const handleDelete = () => {
-        deleteBook(book.id).then(() => {
-            getAndSetBooks()
-        })
-    }
+export const Book = ({bookObject, currentUser}) => {
 
 
     return (
-        <section className="book" >
-            <div className="book-img">{book.image}</div>
-            <header className="book-info">Title</header>
-            <div>{book.title}</div>
-            <header className="book-info">Author</header>
-            <div>{book.author}</div>
-            <div className="book-info">Shelf</div>
-            {/* <div>{bookshelf.label}</div> */}
+        <section className="book-card" >
+            <div className="book-img">
+                <img src={bookObject.image} alt="no image"/>
+            </div>
+            <div className="book-info">{bookObject.title}</div>
+            <div className="book-info">{bookObject.author}</div>
+            <div className="book-info">{bookObject.summary}</div>
             <div className="btn-container">
-                {currentUser?.userBooks.finishedReading ? (<button className="btn" onClick={handleFavorite}>Favorite</button>
-                ) : (
-                    ""
-                )}
-                <button className="btn" onClick={handleDelete}>Delete</button>
+                {/* {currentUser?.userBooks.finishedReading ? ( */}
+                <button className="btn btn-secondary">Favorite</button>
+                {/* ) : ( */}
+                    {/* "" */}
+                {/* )} */}
+                <button className="btn btn-secondary">Delete</button>
             </div>
         </section>
     )

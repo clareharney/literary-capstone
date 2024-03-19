@@ -1,5 +1,5 @@
 export const getUserByEmail = (email) => {
-    return fetch (`http://localhost:8088/users?email=${email}`).then((res) =>
+    return fetch(`http://localhost:8088/users?email=${email}`).then((res) =>
         res.json()
     )
 }
@@ -12,9 +12,8 @@ export const createUser = (customer) => {
       },
       body: JSON.stringify(customer),
     }).then((res) => res.json())
-  }
+}
 
-  export const getUserAndUserBooksById = (user) => {
-    return fetch(`http://localhost:8088/users?id=${user.id}&_embed=userBooks`).then((res) => 
-        res.json())
-  }
+export const getUserAndTheirBooks = (userId) => {
+    return fetch(`http://localhost:8088/users/${userId}?_embed=userBooks`).then((res) => res.json())
+}

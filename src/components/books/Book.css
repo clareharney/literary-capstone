@@ -1,0 +1,15 @@
+.book-card {
+    background-color: #77D970;
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn {
+    margin: 10px;
+}
+.book-img img {
+    width: 100px;
+    height: auto;
+}

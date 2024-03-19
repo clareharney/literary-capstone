@@ -1,5 +1,6 @@
+import "./Profile.css"
 import { useEffect, useState } from "react"
-import { getUserAndUserBooksById } from "../../services/userService.jsx"
+import { getUserAndTheirBooks } from "../../services/userService.jsx"
 
 
 
@@ -7,16 +8,24 @@ export const Profile = ({currentUser}) => {
     const [user, setUser] = useState([])
 
     useEffect(() => {
-        getUserAndUserBooksById(currentUser).then(user => setUser(user))
-    }, [user])
+        if(currentUser.id){
+            getUserAndTheirBooks(currentUser.id).then((userObj) => {
+                setUser(userObj)
+            })
+        }
+    }, [currentUser]) // get the user
     
     return (
         <div className="profile-container">
             {user ? (<>
-            <h1>{user.fullName}</h1>
-            <p>City:</p>
-            {user.city}
-            {/* <p>{user.userBooks.book.count()} Books</p> */}
+            <div>
+                <div className="user-name">
+                    <h1>{user?.fullName}</h1>
+                </div>
+                <p className="user-info">Located in {user?.city}</p>
+                <p className="user-info"></p>
+            </div>
+            
             </>) : ("")}
         </div>
     )
