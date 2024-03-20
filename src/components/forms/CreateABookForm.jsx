@@ -43,70 +43,70 @@ export const CreateABookForm = () => {
             </fieldset>
             <fieldset>
                 <div>
-                    <label>Fantasy
+                    <label>
                         <input 
                             type="radio"
                             id="option1"
                             value="option1"
                             checked={selectedOption === 'option1'}
                             onChange={handleOptionChange}
-                        />
+                        />Fantasy
                     </label>
-                    <label>Science Fiction
+                    <label>
                         <input 
                             type="radio"
                             id="option2"
                             value="option2"
                             checked={selectedOption === 'option2'}
                             onChange={handleOptionChange}
-                        />
+                        />Science Fiction
                     </label>
-                    <label>Mystery
+                    <label>
                         <input 
                             type="radio"
                             id="option3"
                             value="option3"
                             checked={selectedOption === 'option3'}
                             onChange={handleOptionChange}
-                        />
+                        />Mystery
                     </label>
-                    <label>Romance
+                    <label>
                         <input 
                             type="radio"
                             id="option4"
                             value="option4"
                             checked={selectedOption === 'option4'}
                             onChange={handleOptionChange}
-                        />
+                        />Romance
                     </label>
-                    <label>Thriller
+                    <label>
                         <input 
                             type="radio"
                             id="option5"
                             value="option5"
                             checked={selectedOption === 'option5'}
                             onChange={handleOptionChange}
-                        />
+                        />Thriller
                     </label>
-                    <label>Historical Fiction
+                    <label>
                         <input 
                             type="radio"
                             id="option6"
                             value="option6"
                             checked={selectedOption === 'option6'}
                             onChange={handleOptionChange}
-                        />
+                        />Historical Fiction
                     </label>
-                    <label>Horror
+                    <label>
                         <input 
                             type="radio"
                             id="option7"
                             value="option7"
                             checked={selectedOption === 'option7'}
                             onChange={handleOptionChange}
-                        />
+                        />Horror
                     </label>
-                    <label>Biography
+                    <label>
                         <input 
                             type="radio"
                             id="option8"
@@ -114,87 +114,87 @@ export const CreateABookForm = () => {
                             checked={selectedOption === 'option8'}
                             onChange={handleOptionChange}
                         />
-                    </label>
-                    <label>Young Adult
+                    </label>Biography
+                    <label>
                         <input 
                             type="radio"
                             id="option9"
                             value="option9"
                             checked={selectedOption === 'option9'}
                             onChange={handleOptionChange}
-                        />
+                        />Young Adult
                     </label>
-                    <label>Adventure
+                    <label>
                         <input 
                             type="radio"
                             id="option10"
                             value="option10"
                             checked={selectedOption === 'option10'}
                             onChange={handleOptionChange}
-                        />
+                        />Adventure
                     </label>
-                    <label>Non-Fiction
+                    <label>
                         <input 
                             type="radio"
                             id="option11"
                             value="option11"
                             checked={selectedOption === 'option11'}
                             onChange={handleOptionChange}
-                        />
+                        />Non-Fiction
                     </label>
-                    <label>Poetry
+                    <label>
                         <input 
                             type="radio"
                             id="option12"
                             value="option12"
                             checked={selectedOption === 'option12'}
                             onChange={handleOptionChange}
-                        />
+                        />Poetry
                     </label>
-                    <label>Self-Help
+                    <label>
                         <input 
                             type="radio"
                             id="option13"
                             value="option13"
                             checked={selectedOption === 'option13'}
                             onChange={handleOptionChange}
-                        />
+                        />Self-Help
                     </label>
-                    <label>Cookbook
+                    <label>
                         <input 
                             type="radio"
                             id="option14"
                             value="option14"
                             checked={selectedOption === 'option14'}
                             onChange={handleOptionChange}
-                        />
+                        />Cookbook
                     </label>
-                    <label>Travel
+                    <label>
                         <input 
                             type="radio"
                             id="option15"
                             value="option15"
                             checked={selectedOption === 'option15'}
                             onChange={handleOptionChange}
-                        />
+                        />Travel
                     </label>
-                    <label>Graphic Novel
+                    <label>
                         <input 
                             type="radio"
                             id="option16"
                             value="option16"
                             checked={selectedOption === 'option16'}
                             onChange={handleOptionChange}
-                        />
+                        />Graphic Novel
                     </label>
-                    <label>Classic Literature
+                    <label>
                         <input 
                             type="radio"
                             id="option17"
                             value="option17"
                             checked={selectedOption === 'option17'}
                             onChange={handleOptionChange}
-                        />
+                        />Classic Literature
                     </label>
                 </div>
             </fieldset>
