@@ -5,6 +5,7 @@ import { MyBooksList } from "../books/MyBooks.jsx"
 import { Profile } from "../profile/Profile.jsx"
 import { AddABookForm } from "../forms/AddABookForm.jsx"
 import { CreateABookForm } from "../forms/CreateABookForm.jsx"
+import { BookPage } from "../books/BookPage.jsx"
 
 
 export const UserView = ({currentUser}) => {
@@ -27,7 +28,7 @@ export const UserView = ({currentUser}) => {
             </Route>
             <Route path="books">
                 <Route index element={<>All Books</>} />
-
+                <Route path=":bookId" element={<BookPage currentUser={currentUser} />}/>
             </Route>
             <Route path="profile" element={<Profile currentUser={currentUser}/>}/>
             </Route>
