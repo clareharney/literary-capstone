@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { getAllBooks, getUserBooks } from "../../services/bookService.jsx"
 import { Book } from "./Book.jsx"
+import { useNavigate } from "react-router-dom"
 
 export const MyBooksList = ({currentUser}) => {
     const [allBooks, setAllBooks] = useState([])
@@ -31,11 +32,12 @@ export const MyBooksList = ({currentUser}) => {
     }, [allBooks])
 
 
-
+    const navigate= useNavigate()
 
     return (
         <div className="books-container">
             <h2>My Books</h2>
+            <button className="btn btn-info" onClick={() => {navigate("/my-books/add-to-my-books")}}>Add A New Book</button>
             <article className="books">
                 {filteredBooks?.map((bookObject) => {
                         return <Book bookObject={bookObject} currentUser={currentUser} key={bookObject.id} />

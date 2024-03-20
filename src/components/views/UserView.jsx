@@ -3,6 +3,7 @@ import { NavBar } from "../nav/NavBar.jsx"
 import { Welcome } from "../welcome/Welcome.jsx"
 import { MyBooksList } from "../books/MyBooks.jsx"
 import { Profile } from "../profile/Profile.jsx"
+import { AddABookForm } from "../forms/AddABookForm.jsx"
 
 
 export const UserView = ({currentUser}) => {
@@ -18,7 +19,10 @@ export const UserView = ({currentUser}) => {
             }
             >
             <Route index element={<Welcome />} />
-            <Route path="my-books" element={<MyBooksList currentUser={currentUser}/>} />
+            <Route path="my-books">
+                <Route index element={<MyBooksList currentUser={currentUser}/>} />
+                <Route path="add-to-my-books" element={<AddABookForm />} />
+            </Route>
             <Route path="profile" element={<Profile currentUser={currentUser}/>}/>
             </Route>
         </Routes>
