@@ -8,6 +8,7 @@ import { useParams } from "react-router-dom"
 export const BookPage = () => {
     const [allBooks, setAllBooks] = useState([])
     const [book, setBook] = useState({})
+    const {bookId} = useParams()
 
     useEffect(() => {
         getBookById(bookId).then((bookObj) => {
@@ -15,7 +16,6 @@ export const BookPage = () => {
         })
     }, [bookId])
 
-    const {bookId} = useParams()
 
     
 
@@ -24,6 +24,20 @@ export const BookPage = () => {
     }, [allBooks])
 
     return(
-        <></>
+        <main>
+            <div>
+                <div className="book-img">
+                    <img src={book.image}/>
+                </div>
+                <div>{book.title}</div>
+                <div>{book.author}</div>
+                <div>{book.summary}</div>
+                <div>{book.genre}</div>
+                <div>{book.pageCount} pages</div>
+            </div>
+            <div className="btn-container">
+                <button className="btn btn-secondary">Add Book</button>
+            </div>
+        </main>
     )
 }

@@ -1,6 +1,6 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import "./Form.css"
-import { useNavigate } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 import { getAllBooks } from "../../services/bookService.jsx"
 
 export const AddABookForm = () => {
@@ -11,14 +11,13 @@ export const AddABookForm = () => {
 
     const [title, setTitle] = useState('')
     const [author, setAuthor] = useState('')
-    //const [bookExists, setBookExists] = useState([])
     const navigate = useNavigate()
 
     const handleSearch = (event) => {
         event.preventDefault()
         checkIfBookExists(title, author)
     }
-
+    
     const checkIfBookExists = (title, author) => {
         // check if book exists in database
         getAllBooks().then((bookArray) => {
@@ -33,7 +32,7 @@ export const AddABookForm = () => {
 
 
     return (
-        <form>
+        <form onSubmit={handleSearch}>
             <h2>Add A Book to My Books</h2>
             <fieldset>
                 <div className="form-group">
@@ -42,6 +41,7 @@ export const AddABookForm = () => {
                         type="text"
                         className="form-control"
                         placeholder="Please enter the book title"
+                        required
                         value={title}
                         onChange={(event) => setTitle(event.target.value)}
                     />
@@ -50,6 +50,7 @@ export const AddABookForm = () => {
                         type="text"
                         className="form-control"
                         placeholder="Please enter the book's author"
+                        required
                         value={author}
                         onChange={(event) => setAuthor(event.target.value)}
                     />
@@ -57,7 +58,7 @@ export const AddABookForm = () => {
             </fieldset>
             <fieldset>
                 <div className="form-group">
-                    <button className="form-btn btn-info" onClick={handleSearch}>Search</button>
+                    <button className="form-btn btn-info" type="submit">Search</button>
                 </div>
             </fieldset>
         </form>
