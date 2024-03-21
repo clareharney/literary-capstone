@@ -15,6 +15,14 @@ export const Profile = ({currentUser}) => {
 
     useEffect(() => {
         if(currentUser.id){
+            getUserAndTheirBooks(currentUser.id).then((userObj) => {
+                setUser(userObj)
+            })
+        }
+    }, [currentUser]) // get the user
+
+    useEffect(() => {
+        if(currentUser.id){
             getUserBooks(currentUser.id).then((userObj) => {
                 setUserBooks(userObj.userBooks)
             })
@@ -36,13 +44,6 @@ export const Profile = ({currentUser}) => {
         setFilteredBooks(allBooks)
     }, [allBooks])
 
-    useEffect(() => {
-        if(currentUser.id){
-            getUserAndTheirBooks(currentUser.id).then((userObj) => {
-                setUser(userObj)
-            })
-        }
-    }, [currentUser]) // get the user
 
     useEffect(() => {
         if(currentUser.id){
@@ -50,7 +51,9 @@ export const Profile = ({currentUser}) => {
                 setBookshelves(userObj.bookshelves)
             })
         }
-    }, [currentUser])
+    }, [currentUser]) // getting all the user's bookshelves
+
+
     
     return (
         <main>
@@ -76,7 +79,7 @@ export const Profile = ({currentUser}) => {
             <h3>My Favorite Books</h3>
             {filteredBooks?.map((bookObject) => {
                 if(bookObject.favorite === true){
-                   return <Book bookObject={bookObject} currentUser={currentUser} key={bookObject.id} /> 
+                   return <div>Favorite Book Image</div>
                 }
                 })}
         </div>
