@@ -6,9 +6,7 @@ import { Profile } from "../profile/Profile.jsx"
 import { AddABookForm } from "../forms/AddABookForm.jsx"
 import { CreateABookForm } from "../forms/CreateABookForm.jsx"
 import { BookPage } from "../books/BookPage.jsx"
-import { BookshelvesPage } from "../books/BookshelvesPage.jsx"
-import { AllBooksPage } from "../books/AllBooksPage.jsx"
-import { BookShelf } from "../books/Bookshelf.jsx"
+import { EditProfile } from "../forms/EditProfile.jsx"
 
 
 export const UserView = ({currentUser}) => {
@@ -33,13 +31,10 @@ export const UserView = ({currentUser}) => {
                 <Route index element={<>All Books</>} />
                 <Route path=":bookId" element={<BookPage currentUser={currentUser} />}/>
             </Route>
-            <Route path="my-bookshelves">
-                <Route index element={<BookshelvesPage />} />
-                <Route path=":bookshelfId" element={<BookShelf />} />
+            <Route path="profile">
+                <Route index element={<Profile currentUser={currentUser}/>} />
+                <Route path="edit" element={<EditProfile currentUser={currentUser}/>} />
             </Route>
-                
-            <Route path="discover" element={<AllBooksPage />} />
-            <Route path="profile" element={<Profile currentUser={currentUser}/>}/>
             </Route>
         </Routes>
     )

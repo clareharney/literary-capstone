@@ -1,11 +1,13 @@
 import "./Profile.css"
 import { useEffect, useState } from "react"
-import { getUserAndTheirBooks } from "../../services/userService.jsx"
+import { getUserById } from "../../services/userService.jsx"
 import { getAllBooks, getUserBooks, getUserBookshelves } from "../../services/bookService.jsx"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 
-
+// STILL NEED TO DO
+// add a book count under user's location
+//book count will count all the user's book and display that number
 
 export const Profile = ({currentUser}) => {
     const [user, setUser] = useState([])
@@ -16,7 +18,7 @@ export const Profile = ({currentUser}) => {
 
     useEffect(() => {
         if(currentUser.id){
-            getUserAndTheirBooks(currentUser.id).then((userObj) => {
+            getUserById(currentUser.id).then((userObj) => {
                 setUser(userObj)
             })
         }
@@ -33,7 +35,7 @@ export const Profile = ({currentUser}) => {
     useEffect(() => {
         getAllBooks().then((booksArray) => {
             const booksToAdd = []
-            userBooks.map(userBook => {
+            userBooks?.map(userBook => {
                 const bookToAdd = booksArray.find(book => book.id === userBook.bookId)
                 booksToAdd.push(bookToAdd)
             })
@@ -45,20 +47,13 @@ export const Profile = ({currentUser}) => {
         setFilteredBooks(allBooks)
     }, [allBooks])
 
-
-    useEffect(() => {
-        if(currentUser.id){
-            getUserBookshelves(currentUser.id).then((userObj) => {
-                setBookshelves(userObj.bookshelves)
-            })
-        }
-    }, [currentUser]) // get all the user's bookshelves
-
-
+    const navigate= useNavigate()
     
     return (
         <main>
-        <button className="btn btn-warning">Edit Profile</button>
+        <button className="btn btn-warning" onClick={() => {
+            navigate("/profile/edit")
+        }}>Edit Profile</button>
         <div className="profile-container">
              {user ? (<>
             <div>
@@ -69,24 +64,6 @@ export const Profile = ({currentUser}) => {
                 <p className="user-info"></p>
             </div>
             </>) : ("")}
-        </div>
-        <div className="bookshelves-container">
-            <h3>My Bookshelves</h3>
-            {bookshelves?.map((bookshelf) => {
-               return (
-                <Link to={`/my-bookshelves/${bookshelf.id}`}>
-                    <div key={bookshelf.id}>{bookshelf.label}</div>
-                </Link>
-               )
-            })}
-        </div>
-        <div className="favorites-container">
-            <h3>My Favorite Books</h3>
-            {filteredBooks?.map((bookObject) => {
-                if(bookObject.favorite === true){
-                   return <div>Favorite Book Image</div>
-                }
-                })}
         </div>
         </main>
     )

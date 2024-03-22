@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom"
-import "./services/app.css"
 import { Login } from "./components/auth/Login.jsx"
 import { Register } from "./components/auth/Register.jsx"
 import { Authorized } from "./components/views/Authorized.jsx"

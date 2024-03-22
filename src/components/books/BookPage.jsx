@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react"
-import { getAllBooks, getBookById } from "../../services/bookService.jsx"
+import { addABookToUserBooks, getAllBooks, getBookById } from "../../services/bookService.jsx"
 import { useParams } from "react-router-dom"
 
-//once the user searches a book, if the book is found the user sees the book page 
-//the image, title, author, summary and genre of the book shows
+// STILL NEED TO DO
+// when user clicks Add Book, book is added to userBooks
+// when user clicks Want to Read, book is added to userBooks and user's Want To Read Bookshelf
 
 export const BookPage = () => {
     const [allBooks, setAllBooks] = useState([])
@@ -17,6 +18,17 @@ export const BookPage = () => {
     }, [bookId])
 
 
+    const handleAdd = () => {
+        const newBook= {
+            bookId: book.id,
+            userId: book.userId,
+            ratingScale: 0,
+            review: "",
+            favorite: false,
+            finishedReading: false
+        }
+        addABookToUserBooks(newBook)
+    }
     
 
     useEffect(() => {
@@ -25,7 +37,7 @@ export const BookPage = () => {
 
     return(
         <main>
-            <div>
+            <div className="book-card">
                 <div className="book-img">
                     <img src={book.image}/>
                 </div>
@@ -36,7 +48,7 @@ export const BookPage = () => {
                 <div>{book.pageCount} pages</div>
             </div>
             <div className="btn-container">
-                <button className="btn btn-secondary">Add Book</button>
+                <button className="btn btn-secondary" onClick={handleAdd}>Add This Book</button>
             </div>
         </main>
     )
