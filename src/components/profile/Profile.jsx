@@ -2,6 +2,7 @@ import "./Profile.css"
 import { useEffect, useState } from "react"
 import { getUserAndTheirBooks } from "../../services/userService.jsx"
 import { getAllBooks, getUserBooks, getUserBookshelves } from "../../services/bookService.jsx"
+import { Link } from "react-router-dom"
 
 
 
@@ -51,7 +52,7 @@ export const Profile = ({currentUser}) => {
                 setBookshelves(userObj.bookshelves)
             })
         }
-    }, [currentUser]) // getting all the user's bookshelves
+    }, [currentUser]) // get all the user's bookshelves
 
 
     
@@ -72,7 +73,11 @@ export const Profile = ({currentUser}) => {
         <div className="bookshelves-container">
             <h3>My Bookshelves</h3>
             {bookshelves?.map((bookshelf) => {
-               return <li key={bookshelf.id}>{bookshelf.label}</li>
+               return (
+                <Link to={`/my-bookshelves/${bookshelf.id}`}>
+                    <div key={bookshelf.id}>{bookshelf.label}</div>
+                </Link>
+               )
             })}
         </div>
         <div className="favorites-container">

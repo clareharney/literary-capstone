@@ -11,7 +11,7 @@ export const getUserBooks = (userId) => {
 }
 
 export const getUserBookshelves = (userId) => {
-    return fetch(`http://localhost:8088/users/${userId}?_embed=bookshelves`)
+    return fetch(`http://localhost:8088/users/${userId}?_embed=bookshelves`).then((res) => res.json())
 }
 
 export const deleteBook = (bookId) => {
