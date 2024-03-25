@@ -1,11 +1,3 @@
-// STILL NEED TO DO
-// add a POST service for when a user "creates" a new book-- needs to be added to AllBooks
-// add a PUT service for when user edits profile
-// add a DELETE service for when user wants to delete a book from their userBooks
-// add a POST service for when user creates a new bookshelf
-// add a POST service for when user adds a book to one of their bookshelves
-
-
 export const getUserByEmail = (email) => {
     return fetch(`http://localhost:8088/users?email=${email}`).then((res) =>
     res.json()

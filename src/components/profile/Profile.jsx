@@ -5,16 +5,8 @@ import { getAllBooks, getUserBooks, getUserBookshelves } from "../../services/bo
 import { Link, useNavigate } from "react-router-dom"
 
 
-// STILL NEED TO DO
-// add a book count under user's location
-//book count will count all the user's book and display that number
-
 export const Profile = ({currentUser}) => {
     const [user, setUser] = useState([])
-    const [bookshelves, setBookshelves] = useState([])
-    const [allBooks, setAllBooks] = useState([])
-    const [filteredBooks, setFilteredBooks] = useState([])
-    const [userBooks, setUserBooks] = useState([])
 
     useEffect(() => {
         if(currentUser.id){
@@ -22,30 +14,7 @@ export const Profile = ({currentUser}) => {
                 setUser(userObj)
             })
         }
-    }, [currentUser]) // get the user
-
-    useEffect(() => {
-        if(currentUser.id){
-            getUserBooks(currentUser.id).then((userObj) => {
-                setUserBooks(userObj.userBooks)
-            })
-        }
-    }, [currentUser]) // get all the user's books
-
-    useEffect(() => {
-        getAllBooks().then((booksArray) => {
-            const booksToAdd = []
-            userBooks?.map(userBook => {
-                const bookToAdd = booksArray.find(book => book.id === userBook.bookId)
-                booksToAdd.push(bookToAdd)
-            })
-            setAllBooks(booksToAdd)
-        })
-    }, [userBooks]) // taking all the user books and finding the actual books
-
-    useEffect(() => {
-        setFilteredBooks(allBooks)
-    }, [allBooks])
+    }, [currentUser])
 
     const navigate= useNavigate()
     

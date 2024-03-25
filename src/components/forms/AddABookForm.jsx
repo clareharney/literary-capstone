@@ -15,7 +15,6 @@ export const AddABookForm = () => {
     }
 
     const checkIfBookExists = (title) => {
-        // check if book exists in database
         getAllBooks().then((bookArray) => {
             const foundBook = bookArray.find(book => book.title === title)
             if(foundBook){

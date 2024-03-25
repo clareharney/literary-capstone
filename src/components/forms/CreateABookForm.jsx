@@ -3,11 +3,6 @@ import { getAllGenres } from "../../services/genreService.jsx"
 import { addABook } from "../../services/bookService.jsx"
 import { useNavigate } from "react-router-dom"
 
-// STILL NEED TO DO
-// on button click, add book to books database
-// also deal with the image aspect
-
-
 export const CreateABookForm = () => {
     const [selectedOption, setSelectedOption] = useState({})
     const [genres, setGenres] = useState([])
