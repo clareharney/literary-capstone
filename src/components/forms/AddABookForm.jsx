@@ -14,9 +14,9 @@ export const AddABookForm = () => {
         checkIfBookExists(title, author)
     }
 
-    const checkIfBookExists = (title) => {
+    const checkIfBookExists = (title, author) => {
         getAllBooks().then((bookArray) => {
-            const foundBook = bookArray.find(book => book.title === title)
+            const foundBook = bookArray.find(book => book.title === title || book.author === author)
             if(foundBook){
                 navigate(`/books/${foundBook.id}`)
             } else {
@@ -36,7 +36,6 @@ export const AddABookForm = () => {
                         type="text"
                         className="form-control"
                         placeholder="Please enter the book title"
-                        required
                         value={title}
                         onChange={(event) => setTitle(event.target.value)}
                     />

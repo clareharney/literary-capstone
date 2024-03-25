@@ -48,10 +48,22 @@ export const EditProfile = ({currentUser}) => {
                         type="text"
                         className="form-control"
                         placeholder="Please enter your new location"
-                        value={user?.location}
+                        value={user?.city}
                         onChange={(event) => {
                             const copy = {...user}
                             copy.city = event.target.value
+                            setUser(copy)
+                        }}
+                    />
+                    <label>Edit Email</label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Please enter your new email address"
+                        value={user?.email}
+                        onChange={(event) => {
+                            const copy = {...user}
+                            copy.email = event.target.value
                             setUser(copy)
                         }}
                     />

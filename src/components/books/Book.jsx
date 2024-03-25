@@ -9,7 +9,7 @@ export const Book = ({bookObject, userBook, onDelete}) => {
     return (
         <section className="book-card" >
             <div className="book-img">
-                <img src={bookObject.image} alt="Image coming soon!"/>
+                <img src={bookObject.image} alt="Image Coming Soon!"/>
             </div>
             <div className="book-info">{bookObject.title}</div>
             <div className="book-info">{bookObject.author}</div>

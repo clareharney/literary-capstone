@@ -36,7 +36,7 @@ export const BookPage = ({currentUser}) => {
     return(
         <main>
             <div className="book-card">
-                <div className="book-img">
+                <div className="book-img" alt="Image Coming Soon!">
                     <img src={book.image}/>
                 </div>
                 <div>{book.title}</div>
