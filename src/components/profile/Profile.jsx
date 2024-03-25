@@ -1,8 +1,7 @@
 import "./Profile.css"
 import { useEffect, useState } from "react"
 import { getUserById } from "../../services/userService.jsx"
-import { getAllBooks, getUserBooks, getUserBookshelves } from "../../services/bookService.jsx"
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 
 export const Profile = ({currentUser}) => {
