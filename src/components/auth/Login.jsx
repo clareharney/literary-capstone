@@ -5,7 +5,7 @@ import "./Login.css"
 import { getUserByEmail } from "../../services/userService.jsx"
 
 export const Login = () => {
-  const [email, set] = useState("john.doe@gmail.com")
+  const [email, set] = useState("")
   const navigate = useNavigate()
 
   const handleLogin = (e) => {

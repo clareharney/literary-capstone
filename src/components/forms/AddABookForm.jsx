@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import "./Form.css"
-import { useLocation, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { getAllBooks } from "../../services/bookService.jsx"
 
 export const AddABookForm = () => {
@@ -14,10 +14,10 @@ export const AddABookForm = () => {
         checkIfBookExists(title, author)
     }
 
-    const checkIfBookExists = (title, author) => {
+    const checkIfBookExists = (title) => {
         // check if book exists in database
         getAllBooks().then((bookArray) => {
-            const foundBook = bookArray.find(book => book.title === title && book.author === author)
+            const foundBook = bookArray.find(book => book.title === title)
             if(foundBook){
                 navigate(`/books/${foundBook.id}`)
             } else {
@@ -46,7 +46,6 @@ export const AddABookForm = () => {
                         type="text"
                         className="form-control"
                         placeholder="Please enter the book's author"
-                        required
                         value={author}
                         onChange={(event) => setAuthor(event.target.value)}
                     />

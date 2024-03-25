@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { getAllGenres } from "../../services/genreService.jsx"
 import { addABook } from "../../services/bookService.jsx"
+import { useNavigate } from "react-router-dom"
 
 // STILL NEED TO DO
 // on button click, add book to books database
@@ -15,6 +16,7 @@ export const CreateABookForm = () => {
     const [summary, setSummary] = useState("")
     const [image, setImage] = useState("")
     const [pageCount, setPageCount] = useState(0)
+    const navigate = useNavigate()
 
 
     useEffect(() => {
@@ -27,7 +29,8 @@ export const CreateABookForm = () => {
         setSelectedOption(event.target.value)
     }
 
-    const handleAdd = () => { 
+    const handleAdd = (event) => {
+        event.preventDefault()
         const newBook = {
             title: title,
             author: author,
@@ -36,7 +39,9 @@ export const CreateABookForm = () => {
             image: image,
             pageCount: pageCount
         }
-        addABook(newBook)
+        addABook(newBook).then((book) => { 
+            navigate(`/books/${book.id}`)
+        })
     }
 
     return (

@@ -17,8 +17,7 @@ export const Register = (props) => {
         localStorage.setItem(
           "literary_user",
           JSON.stringify({
-            id: createdUser.id,
-            staff: createdUser.isStaff,
+            id: createdUser.id
           })
         )
 
@@ -78,18 +77,14 @@ export const Register = (props) => {
         </fieldset>
         <fieldset>
           <div className="form-group">
-            <label>
-              <input
-                onChange={(evt) => {
-                  const copy = { ...customer }
-                  copy.isStaff = evt.target.checked
-                  setCustomer(copy)
-                }}
-                type="checkbox"
-                id="isStaff"
-              />
-              I am an employee{" "}
-            </label>
+            <input
+              onChange={updateCustomer}
+              type="city"
+              id="city"
+              className="form-control"
+              placeholder="Your City"
+              required
+            />
           </div>
         </fieldset>
         <fieldset>

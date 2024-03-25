@@ -16,15 +16,15 @@ export const getUserBookshelves = (userId) => {
 
 
 
-export const deleteBook = (bookId) => {
-    return fetch(`http://localhost:8088/userBooks?bookId=${bookId}`, {
-        method : "DELETE"
-    })
-}
+// export const deleteBook = (bookId) => {
+//     return fetch(`http://localhost:8088/userBooks?bookId=${bookId}`, {
+//         method : "DELETE"
+//     })
+// }
 
 // add a DELETE service for when a user wants to remove a book from a bookshelf
-export const deleteBookFormShelf = () => {
-    return fetch(``, {
+export const deleteUserBook = (userBookId) => {
+    return fetch(`http://localhost:8088/userBooks/${userBookId}`, {
         method : "DELETE"
     })
 }
@@ -36,10 +36,10 @@ export const addABook = (bookObj) => {
             "Content-Type" : "application/json"
         },
         body: JSON.stringify(bookObj)
-    })
+    }).then((res) => res.json())
 }
 
-export const addABookToUserBooks = (bookObj) => {
+export const addABookToUserBooks = (bookObj, userId) => {
     return fetch(`http://localhost:8088/userBooks`, {
         method: "POST",
         headers: {

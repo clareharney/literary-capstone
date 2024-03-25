@@ -1,14 +1,11 @@
 import { useEffect, useState } from "react"
 import { addABookToUserBooks, getAllBooks, getBookById } from "../../services/bookService.jsx"
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 
-// STILL NEED TO DO
-// when user clicks Add Book, book is added to userBooks
-// when user clicks Want to Read, book is added to userBooks and user's Want To Read Bookshelf
-
-export const BookPage = () => {
+export const BookPage = ({currentUser}) => {
     const [allBooks, setAllBooks] = useState([])
     const [book, setBook] = useState({})
+    const navigate = useNavigate()
     const {bookId} = useParams()
 
     useEffect(() => {
@@ -18,16 +15,17 @@ export const BookPage = () => {
     }, [bookId])
 
 
-    const handleAdd = () => {
+    const handleAdd = (event) => {
+        event.preventDefault()
         const newBook= {
             bookId: book.id,
-            userId: book.userId,
+            userId: currentUser.id,
             ratingScale: 0,
             review: "",
             favorite: false,
             finishedReading: false
         }
-        addABookToUserBooks(newBook)
+        addABookToUserBooks(newBook).then(navigate("/my-books"))
     }
     
 

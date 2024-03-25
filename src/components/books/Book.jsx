@@ -1,13 +1,10 @@
 import "./Book.css"
 
-//STILL NEED TO DO
-//favorite button (if a user has finished reading, a button to add book to favorites will appear)
-//favorite is a boolean in database, button will toggle the boolean
-//ternary statement for the AllBooks page, if book is not in userBooks, a Want to Read button will appear
-//on click, book will be added to user's Want to Read Bookshelf
+export const Book = ({bookObject, userBook, onDelete}) => {
 
-export const Book = ({bookObject, currentUser}) => {
-
+    const handleDelete = () => {
+        onDelete(userBook.id)
+    }
 
     return (
         <section className="book-card" >
@@ -18,7 +15,7 @@ export const Book = ({bookObject, currentUser}) => {
             <div className="book-info">{bookObject.author}</div>
             <div className="book-info">{bookObject.summary}</div>
             <div className="btn-container">
-                <button className="btn btn-warning">Remove from My Books</button>
+                <button className="btn btn-warning" onClick={handleDelete}>Remove from My Books</button>
             </div>
         </section>
     )

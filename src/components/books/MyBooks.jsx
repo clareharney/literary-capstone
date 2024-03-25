@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { getAllBooks, getUserBooks } from "../../services/bookService.jsx"
+import { deleteUserBook, getAllBooks, getUserBooks } from "../../services/bookService.jsx"
 import { Book } from "./Book.jsx"
 import { useNavigate } from "react-router-dom"
 
@@ -7,14 +7,15 @@ export const MyBooksList = ({currentUser}) => {
     const [allBooks, setAllBooks] = useState([])
     const [filteredBooks, setFilteredBooks] = useState([])
     const [userBooks, setUserBooks] = useState([])
-
+    const navigate= useNavigate()
+    
     useEffect(() => {
         if(currentUser.id){
             getUserBooks(currentUser.id).then((userObj) => {
                 setUserBooks(userObj.userBooks)
             })
         }
-    }, [currentUser]) // get all the user's books
+    }, [currentUser])
 
     useEffect(() => {
         getAllBooks().then((booksArray) => {
@@ -25,14 +26,19 @@ export const MyBooksList = ({currentUser}) => {
             })
             setAllBooks(booksToAdd)
         })
-    }, [userBooks]) // taking all the user books and finding the actual books
+    }, [userBooks])
 
     useEffect(() => {
         setFilteredBooks(allBooks)
     }, [allBooks])
 
+    const handleDelete = (userBookId) => {
+        deleteUserBook(userBookId).then(() => {
+            setUserBooks(prevUserBooks => prevUserBooks.filter(book => book.id !== userBookId))
+        })
+    }
 
-    const navigate= useNavigate()
+
 
     return (
         <div className="books-container">
@@ -40,7 +46,9 @@ export const MyBooksList = ({currentUser}) => {
             <button className="btn btn-info" onClick={() => {navigate("/my-books/add-to-my-books")}}>Add A New Book</button>
             <article className="books">
                 {filteredBooks?.map((bookObject) => {
-                        return <Book bookObject={bookObject} currentUser={currentUser} key={bookObject.id} />
+                    const userBook = userBooks.find(
+                        (userBook) => userBook.bookId === bookObject.id)
+                        return <Book bookObject={bookObject} currentUser={currentUser} userBook={userBook} onDelete={handleDelete} key={bookObject.id} />
                 })}
             </article>
         </div>

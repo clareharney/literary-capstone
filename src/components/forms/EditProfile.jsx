@@ -1,16 +1,9 @@
-
-// STILL NEED TO DO
-// user will be able to delete shelves
-// (but not the Want To Read, Read, Currently Reading or DNF shelves)
-
 import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
-import { getUserBookshelves } from "../../services/bookService.jsx"
-import { deleteBookshelf, getUserById, updateUser } from "../../services/userService.jsx"
+import { getUserById, updateUser } from "../../services/userService.jsx"
 
 export const EditProfile = ({currentUser}) => {
     const [user, setUser] = useState({})
-    const [bookshelves, setBookshelves] = useState([])
     
     const navigate = useNavigate()
 
