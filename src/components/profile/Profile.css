@@ -1,0 +1,10 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    margin-right: auto;
+}
