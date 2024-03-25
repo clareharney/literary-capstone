@@ -1,0 +1,1614 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "summary": "Bilbo Baggins, a hobbit, embarks on a grand adventure with a group of dwarves to reclaim their homeland from the dragon Smaug.",
+      "genreId": 1,
+      "image": "https://m.media-amazon.com/images/I/712cDO7d73L._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 300
+    },
+    {
+      "id": 2,
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "summary": "Hari Seldon, a mathematician, predicts the fall of the Galactic Empire and establishes a foundation to preserve knowledge and shorten the dark ages.",
+      "genreId": 7,
+      "image": "https://images.booksense.com/images/357/293/9780553293357.jpg",
+      "pageCount": 320
+    },
+    {
+      "id": 4,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "summary": "Robert Langdon, a symbologist, solves puzzles and unravels secrets hidden in religious symbols to uncover a shocking truth.",
+      "genreId": 9,
+      "image": "https://images.penguinrandomhouse.com/cover/9780307277671",
+      "pageCount": 592
+    },
+    {
+      "id": 5,
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "summary": "Count Dracula, a vampire, spreads terror in England as a group of friends races to stop his reign of darkness.",
+      "genreId": 10,
+      "image": "https://i.pinimg.com/originals/b5/ea/96/b5ea96cf593fc3504c282b50087d2071.jpg",
+      "pageCount": 448
+    },
+    {
+      "id": 6,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "summary": "On their fifth wedding anniversary, Nick Dunne's wife, Amy, disappears, and he becomes the prime suspect in her disappearance.",
+      "genreId": 13,
+      "image": "https://m.media-amazon.com/images/I/71FZo7-3BnL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 432
+    },
+    {
+      "id": 7,
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "summary": "Set in Nazi Germany, this novel follows a young girl named Liesel as she steals books and shares them with her neighbors, all while Death narrates her story.",
+      "genreId": 2,
+      "image": "https://m.media-amazon.com/images/I/5185oyzCNGL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 560
+    },
+    {
+      "id": 8,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "summary": "Elizabeth Bennet navigates the societal expectations of 19th-century England while her family seeks advantageous marriages. She finds love in an unexpected place.",
+      "genreId": 3,
+      "image": "https://images.penguinrandomhouse.com/cover/9780593622452",
+      "pageCount": 432
+    },
+    {
+      "id": 9,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "summary": "Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School of Witchcraft and Wizardry.",
+      "genreId": 1,
+      "image": "https://m.media-amazon.com/images/I/71XqqKTZz7L._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 320
+    },
+    {
+      "id": 10,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "summary": "Scout Finch and her brother Jem witness racial injustice and moral growth in their Alabama town when their father, Atticus Finch, defends a black man accused of raping a white woman.",
+      "genreId": 4,
+      "image": "https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 336
+    },
+    {
+      "id": 11,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "summary": "Kvothe, a gifted young musician and magician, recounts his life story, including his time at the magical University and his quest for revenge against the mythical Chandrian.",
+      "genreId": 1,
+      "image": "https://m.media-amazon.com/images/I/91UzPegYyjL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 662
+    },
+    {
+      "id": 12,
+      "title": "Ender's Game",
+      "author": "Orson Scott Card",
+      "summary": "Andrew 'Ender' Wiggin, a gifted child, is recruited by the military to attend Battle School in space, where he trains to lead humanity's fleet against an alien race known as the Formics.",
+      "genreId": 7,
+      "image": "https://m.media-amazon.com/images/I/71nr7G7Q+xL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 324
+    },
+    {
+      "id": 14,
+      "title": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "summary": "Rachel, an alcoholic divorcee, becomes obsessed with a couple she sees from her train window. When the woman goes missing, Rachel becomes embroiled in the investigation.",
+      "genreId": 9,
+      "image": "https://m.media-amazon.com/images/I/81-Q2OAVeXL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 336
+    },
+    {
+      "id": 15,
+      "title": "American Psycho",
+      "author": "Bret Easton Ellis",
+      "summary": "Patrick Bateman, a wealthy investment banker, indulges in a life of materialism, violence, and insanity in 1980s Manhattan.",
+      "genreId": 10,
+      "image": "https://m.media-amazon.com/images/I/81jZ1EFsHhL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 416
+    },
+    {
+      "id": 16,
+      "title": "Gone with the Wind",
+      "author": "Margaret Mitchell",
+      "summary": "Scarlett O'Hara, a strong-willed Southern belle, navigates love and loss during the American Civil War and Reconstruction era.",
+      "genreId": 2,
+      "image": "https://m.media-amazon.com/images/I/71nw0xMMY7L._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 1037
+    },
+    {
+      "id": 17,
+      "title": "Me Before You",
+      "author": "Jojo Moyes",
+      "summary": "Louisa Clark takes a job caring for Will Traynor, a wealthy quadriplegic. Their relationship challenges both of them to redefine what it means to live fully.",
+      "genreId": 3,
+      "image": "https://m.media-amazon.com/images/I/71Rf0Ol-fPL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 400
+    },
+    {
+      "id": 18,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "summary": "A father and his young son journey through a post-apocalyptic America, facing dangers and moral dilemmas as they search for safety and hope.",
+      "genreId": 4,
+      "image": "https://ik.imagekit.io/panmac/tr:di-placeholder_portrait_aMjPtD9YZ.jpg,tr:w-350,f-jpg,pr-true/edition/9781035003792.jpg",
+      "pageCount": 287
+    },
+    {
+      "id": 19,
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "summary": "Hazel Grace Lancaster, a teenage cancer patient, falls in love with Augustus Waters at a support group. Together, they grapple with illness, love, and mortality.",
+      "genreId": 5,
+      "image": "https://m.media-amazon.com/images/I/61fbVx3W5cL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 313
+    },
+    {
+      "id": 20,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "summary": "Tara Westover recounts her journey from growing up in a strict and isolated household in rural Idaho to earning a PhD from Cambridge University.",
+      "genreId": 6,
+      "image": "https://m.media-amazon.com/images/I/71-4MkLN5jL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 334
+    },
+    {
+      "id": 21,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "summary": "Jay Gatsby, a wealthy and mysterious man, throws extravagant parties in the hope of winning back his lost love, Daisy Buchanan, in 1920s Long Island.",
+      "genreId": 4,
+      "image": "https://m.media-amazon.com/images/I/61OTNorhqVS._AC_UF894,1000_QL80_.jpg",
+      "pageCount": 180
+    },
+    {
+      "id": 22,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "summary": "Holden Caulfield, a disillusioned teenager, wanders through New York City, grappling with loneliness, alienation, and the phoniness of the adult world.",
+      "genreId": 4,
+      "image": "https://npr.brightspotcdn.com/dims4/default/f735808/2147483647/strip/true/crop/363x574+0+0/resize/880x1392!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwkar%2Ffiles%2Fcatcher_in_the_rye_cover.png",
+      "pageCount": 224
+    },
+    {
+      "id": 23,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "summary": "Frodo Baggins sets out on a perilous journey to destroy the One Ring and save Middle-earth from the dark lord Sauron, with the help of his friends and allies.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 1178
+    },
+    {
+      "id": 24,
+      "title": "Jurassic Park",
+      "author": "Michael Crichton",
+      "summary": "A team of scientists and adventurers visit a remote island inhabited by genetically engineered dinosaurs, leading to a fight for survival.",
+      "genreId": 7,
+      "image": "",
+      "pageCount": 448
+    },
+    {
+      "id": 26,
+      "title": "The Shining",
+      "author": "Stephen King",
+      "summary": "Jack Torrance, an aspiring writer, becomes the winter caretaker of the isolated Overlook Hotel. As supernatural forces take hold, his sanity unravels.",
+      "genreId": 10,
+      "image": "",
+      "pageCount": 688
+    },
+    {
+      "id": 27,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "summary": "On their fifth wedding anniversary, Nick Dunne's wife, Amy, disappears, and he becomes the prime suspect in her disappearance.",
+      "genreId": 9,
+      "image": "",
+      "pageCount": 432
+    },
+    {
+      "id": 29,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "summary": "A father and his young son journey through a post-apocalyptic America, facing dangers and moral dilemmas as they search for safety and hope.",
+      "genreId": 4,
+      "image": "",
+      "pageCount": 287
+    },
+    {
+      "id": 30,
+      "title": "The Notebook",
+      "author": "Nicholas Sparks",
+      "summary": "Noah and Allie fall in love one summer in the 1940s, but their romance is interrupted by World War II. Years later, they reunite and confront their past.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 214
+    },
+    {
+      "id": 41,
+      "title": "Throne of Glass",
+      "author": "Sarah J. Maas",
+      "summary": "Celaena Sardothien, a deadly assassin, is offered her freedom by the Crown Prince if she competes to become the king's champion. As she fights for her freedom, dark forces gather in the kingdom.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 416
+    },
+    {
+      "id": 42,
+      "title": "Crown of Midnight",
+      "author": "Sarah J. Maas",
+      "summary": "Celaena Sardothien, now the king's champion, struggles with her past while carrying out missions for the crown. As threats loom from all sides, she must choose where her loyalties lie.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 418
+    },
+    {
+      "id": 43,
+      "title": "Heir of Fire",
+      "author": "Sarah J. Maas",
+      "summary": "Celaena Sardothien embarks on a journey to train with the Fae in Wendlyn, seeking answers and allies to face the growing darkness threatening her world.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 562
+    },
+    {
+      "id": 44,
+      "title": "Queen of Shadows",
+      "author": "Sarah J. Maas",
+      "summary": "Celaena Sardothien returns to Rifthold with a new identity and a mission to rescue her people. As she faces old enemies and new allies, she must confront her destiny.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 648
+    },
+    {
+      "id": 45,
+      "title": "Empire of Storms",
+      "author": "Sarah J. Maas",
+      "summary": "Aelin Galathynius, now Queen of Terrasen, rallies allies to stand against the dark forces threatening to consume their world. As battles rage, secrets are revealed and sacrifices made.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 704
+    },
+    {
+      "id": 46,
+      "title": "Tower of Dawn",
+      "author": "Sarah J. Maas",
+      "summary": "Chaol Westfall, injured and broken, travels to the Southern Continent seeking allies for Aelin's cause. As he navigates the complex political landscape, he discovers unexpected allies and enemies.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 664
+    },
+    {
+      "id": 47,
+      "title": "Kingdom of Ash",
+      "author": "Sarah J. Maas",
+      "summary": "Aelin Galathynius, facing her greatest challenge yet, leads her allies in a final battle against the dark forces threatening their world. As sacrifices are made, destinies are fulfilled.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 984
+    },
+    {
+      "id": 48,
+      "title": "A Court of Thorns and Roses",
+      "author": "Sarah J. Maas",
+      "summary": "Feyre Archeron, a huntress, is captured by a powerful faerie lord for killing a wolf in the woods. As she learns about the secrets of the faerie world, she must navigate politics, love, and war.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 432
+    },
+    {
+      "id": 49,
+      "title": "A Court of Mist and Fury",
+      "author": "Sarah J. Maas",
+      "summary": "Feyre Archeron, grappling with the aftermath of her trials Under the Mountain, finds herself drawn to the enigmatic High Lord of the Night Court as dark forces gather on the horizon.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 624
+    },
+    {
+      "id": 50,
+      "title": "A Court of Wings and Ruin",
+      "author": "Sarah J. Maas",
+      "summary": "Feyre Archeron must gather allies and prepare for war as the threat of the King of Hybern looms over Prythian. Loyalties are tested, and sacrifices must be made in the fight for freedom.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 720
+    },
+    {
+      "id": 51,
+      "title": "A Court of Frost and Starlight",
+      "author": "Sarah J. Maas",
+      "summary": "Set after the events of the war, this novella follows Feyre and her friends as they navigate the aftermath and prepare for the Winter Solstice celebrations.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 272
+    },
+    {
+      "id": 52,
+      "title": "House of Earth and Blood",
+      "author": "Sarah J. Maas",
+      "summary": "Bryce Quinlan, a half-fae, half-human party girl, is drawn into a murder investigation when her best friend is killed. As she delves deeper, she uncovers dark secrets about her city.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 803
+    },
+    {
+      "id": 53,
+      "title": "Crescent City: The House of Sky and Breath",
+      "author": "Sarah J. Maas",
+      "summary": "Bryce Quinlan and Hunt Athalar navigate the aftermath of the devastating events that shook Crescent City. As new threats emerge, they must confront their pasts and fight for their future.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 800
+    },
+    {
+      "id": 54,
+      "title": "Crown of Feathers",
+      "author": "Nicki Pau Preto",
+      "summary": "Veronyka dreams of becoming a Phoenix Rider like her sister, but after a devastating betrayal, she disguises herself as a boy and joins the ranks of the Phoenix Riders to seek revenge.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 496
+    },
+    {
+      "id": 55,
+      "title": "The Priory of the Orange Tree",
+      "author": "Samantha Shannon",
+      "summary": "In a world threatened by dragons and political intrigue, a queen, a dragonrider, a mage, and a forbidden love story intertwine to shape the destiny of the kingdom.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 848
+    },
+    {
+      "id": 56,
+      "title": "Red Rising",
+      "author": "Pierce Brown",
+      "summary": "In a color-coded society on Mars, Darrow, a Red, infiltrates the ruling Golds to overthrow the oppressive system from within. But the price of revolution is steep.",
+      "genreId": 7,
+      "image": "",
+      "pageCount": 382
+    },
+    {
+      "id": 58,
+      "title": "Six of Crows",
+      "author": "Leigh Bardugo",
+      "summary": "Kaz Brekker, a cunning thief, assembles a team of outcasts for a daring heist that could make them rich beyond their wildest dreams. But success comes at a steep price.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 465
+    },
+    {
+      "id": 59,
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "summary": "Le Cirque des Rêves, a magical circus, becomes the stage for a competition between two young illusionists, Celia and Marco, who are bound by fate and love.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 400
+    },
+    {
+      "id": 60,
+      "title": "The Cruel Prince",
+      "author": "Holly Black",
+      "summary": "Jude, a mortal girl, navigates the treacherous intrigues of the Faerie Court, where she vies for power, love, and survival in a world of deception and danger.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 370
+    },
+    {
+      "id": 61,
+      "title": "Caraval",
+      "author": "Stephanie Garber",
+      "summary": "Scarlett Dragna receives an invitation to Caraval, a legendary game where the stakes are high and the consequences are deadly. But winning means risking everything.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 407
+    },
+    {
+      "id": 62,
+      "title": "The Raven Boys",
+      "author": "Maggie Stiefvater",
+      "summary": "Blue Sargent, the daughter of a psychic, becomes entangled with a group of privileged boys known as the Raven Boys in their quest for a legendary Welsh king.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 409
+    },
+    {
+      "id": 63,
+      "title": "Children of Blood and Bone",
+      "author": "Tomi Adeyemi",
+      "summary": "In a world where magic has disappeared, Zélie Adebola embarks on a dangerous journey to restore magic and overthrow a ruthless king with the help of her brother and a rogue princess.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 544
+    },
+    {
+      "id": 64,
+      "title": "The Poppy War",
+      "author": "R.F. Kuang",
+      "summary": "Rin, a war orphan, aces the Empire-wide test to gain admission to the prestigious Sinegard military academy. There, she discovers her shamanic powers and becomes embroiled in a brutal war.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 544
+    },
+    {
+      "id": 65,
+      "title": "The Lies of Locke Lamora",
+      "author": "Scott Lynch",
+      "summary": "Locke Lamora, a master thief, leads a band of skilled con artists in the city of Camorr, pulling off elaborate heists and outwitting the criminal underworld's most dangerous figures.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 722
+    },
+    {
+      "id": 66,
+      "title": "The Bear and the Nightingale",
+      "author": "Katherine Arden",
+      "summary": "In medieval Russia, Vasilisa Petrovna defies societal norms and the threat of an evil sorcerer to embrace her magical heritage and protect her family and village.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 336
+    },
+    {
+      "id": 67,
+      "title": "The Fifth Season",
+      "author": "N.K. Jemisin",
+      "summary": "In a world plagued by geological catastrophes, Essun sets out on a journey to find her missing daughter while grappling with her own extraordinary power to control seismic events.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 512
+    },
+    {
+      "id": 68,
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "summary": "Patroclus, an exiled prince, becomes Achilles' closest companion and lover as they navigate the battlefield of the Trojan War and face the wrath of the gods.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 389
+    },
+    {
+      "id": 69,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "summary": "Stranded on Mars after a dust storm, astronaut Mark Watney must rely on his ingenuity and scientific knowledge to survive while NASA engineers work tirelessly to bring him home.",
+      "genreId": 7,
+      "image": "",
+      "pageCount": 369
+    },
+    {
+      "id": 70,
+      "title": "Ready Player One",
+      "author": "Ernest Cline",
+      "summary": "In a dystopian future where most of humanity lives in virtual reality, teenager Wade Watts embarks on a quest to find an Easter egg hidden within a massive virtual world.",
+      "genreId": 7,
+      "image": "",
+      "pageCount": 372
+    },
+    {
+      "id": 71,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "summary": "Santiago, a shepherd boy, embarks on a journey across the desert in search of a treasure, encountering spiritual teachings and life-changing lessons along the way.",
+      "genreId": 11,
+      "image": "",
+      "pageCount": 208
+    },
+    {
+      "id": 72,
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "summary": "Kya Clark, known as the 'Marsh Girl,' grows up isolated in the marshes of North Carolina. When a murder investigation brings scrutiny to her quiet life, long-buried secrets are unearthed.",
+      "genreId": 9,
+      "image": "",
+      "pageCount": 384
+    },
+    {
+      "id": 73,
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "summary": "Narrated by Death, this story follows Liesel Meminger, a young girl living in Nazi Germany, as she discovers the power of words and literature during the horrors of World War II.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 552
+    },
+    {
+      "id": 74,
+      "title": "Eleanor Oliphant Is Completely Fine",
+      "author": "Gail Honeyman",
+      "summary": "Eleanor Oliphant leads a solitary life governed by routine until an act of kindness and an unexpected friendship with a coworker disrupt her world, forcing her to confront her past.",
+      "genreId": 11,
+      "image": "",
+      "pageCount": 327
+    },
+    {
+      "id": 75,
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "summary": "Set in Nazi-occupied France, two sisters, Vianne and Isabelle, resist the enemy in their own ways—one through passive endurance, the other through active rebellion.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 440
+    },
+    {
+      "id": 76,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "summary": "Tara Westover recounts her journey from growing up in a survivalist family in rural Idaho, where education was discouraged, to earning a PhD from Cambridge University.",
+      "genreId": 6,
+      "image": "",
+      "pageCount": 334
+    },
+    {
+      "id": 77,
+      "title": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "summary": "In the idyllic suburb of Shaker Heights, the lives of two families become intertwined, igniting conflicts over race, privilege, and motherhood.",
+      "genreId": 11,
+      "image": "",
+      "pageCount": 352
+    },
+    {
+      "id": 78,
+      "title": "The Goldfinch",
+      "author": "Donna Tartt",
+      "summary": "Theodore Decker, a young boy who survives a terrorist attack at an art museum, becomes entangled in the world of art forgery and crime, haunted by a stolen painting.",
+      "genreId": 4,
+      "image": "",
+      "pageCount": 771
+    },
+    {
+      "id": 79,
+      "title": "The Tattooist of Auschwitz",
+      "author": "Heather Morris",
+      "summary": "Based on a true story, Lale Sokolov, a Slovakian Jew, becomes the tattooist at Auschwitz-Birkenau and finds love amid the horrors of the Holocaust.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 288
+    },
+    {
+      "id": 80,
+      "title": "An American Marriage",
+      "author": "Tayari Jones",
+      "summary": "Roy and Celestial's marriage is tested when Roy is wrongfully imprisoned. As they navigate separation and betrayal, they confront questions of love, loyalty, and justice.",
+      "genreId": 11,
+      "image": "",
+      "pageCount": 320
+    },
+    {
+      "id": 81,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "summary": "Amir, haunted by guilt over betraying his childhood friend Hassan, embarks on a journey to redeem himself and find forgiveness in war-torn Afghanistan.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 371
+    },
+    {
+      "id": 82,
+      "title": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "summary": "Set during World War II, this Pulitzer Prize-winning novel follows the lives of a blind French girl and a German boy whose paths eventually cross in occupied France.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 531
+    },
+    {
+      "id": 83,
+      "title": "The Secret History",
+      "author": "Donna Tartt",
+      "summary": "A group of elite college students forms a secretive and destructive clique under the influence of their enigmatic classics professor, leading to murder and betrayal.",
+      "genreId": 4,
+      "image": "",
+      "pageCount": 559
+    },
+    {
+      "id": 84,
+      "title": "Pachinko",
+      "author": "Min Jin Lee",
+      "summary": "Spanning decades and continents, 'Pachinko' follows a Korean family as they navigate love, loss, and discrimination in 20th-century Japan.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 512
+    },
+    {
+      "id": 85,
+      "title": "The Underground Railroad",
+      "author": "Colson Whitehead",
+      "summary": "In this alternate history novel, Cora, a young slave, escapes a Georgia plantation and embarks on a harrowing journey on the Underground Railroad, encountering both kindness and cruelty.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 306
+    },
+    {
+      "id": 86,
+      "title": "Homegoing",
+      "author": "Yaa Gyasi",
+      "summary": "Beginning with two half-sisters in 18th-century Ghana, 'Homegoing' follows their descendants through generations as they experience slavery, colonialism, and the legacy of trauma.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 320
+    },
+    {
+      "id": 87,
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "summary": "Le Cirque des Rêves, a magical circus, becomes the stage for a competition between two young illusionists, Celia and Marco, who are bound by fate and love.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 400
+    },
+    {
+      "id": 88,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "summary": "Kvothe, an orphaned musician with a mysterious past, recounts his life story to a scribe, chronicling his journey to becoming a legendary figure and a master of magic.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 662
+    },
+    {
+      "id": 89,
+      "title": "The Shadow of the Wind",
+      "author": "Carlos Ruiz Zafón",
+      "summary": "In post-war Barcelona, Daniel Sempere discovers a mysterious book by an obscure author, triggering a chain of events that leads him into a dangerous and thrilling mystery.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 487
+    },
+    {
+      "id": 90,
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "summary": "Set in Nazi-occupied France, two sisters, Vianne and Isabelle, resist the enemy in their own ways—one through passive endurance, the other through active rebellion.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 440
+    },
+    {
+      "id": 91,
+      "title": "The Great Alone",
+      "author": "Kristin Hannah",
+      "summary": "After returning from Vietnam, the Allbright family seeks a fresh start in the wilds of Alaska. But as winter approaches, darkness descends, and old traumas resurface.",
+      "genreId": 11,
+      "image": "",
+      "pageCount": 448
+    },
+    {
+      "id": 92,
+      "title": "The Giver",
+      "author": "Lois Lowry",
+      "summary": "In a seemingly perfect society where memories are suppressed and emotions are controlled, 12-year-old Jonas is chosen to inherit the role of Receiver of Memories, unraveling the truth about his world.",
+      "genreId": 7,
+      "image": "",
+      "pageCount": 240
+    },
+    {
+      "id": 93,
+      "title": "Before We Were Yours",
+      "author": "Lisa Wingate",
+      "summary": "Based on a true story, 'Before We Were Yours' follows the lives of Rill Foss and Avery Stafford, two women connected by a dark secret involving a notorious Tennessee orphanage.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 352
+    },
+    {
+      "id": 94,
+      "title": "The Book of M",
+      "author": "Peng Shepherd",
+      "summary": "In a world where people's shadows begin to disappear, causing them to lose their memories and eventually their selves, Ory and his wife, Max, embark on a journey to find a cure.",
+      "genreId": 7,
+      "image": "",
+      "pageCount": 485
+    },
+    {
+      "id": 95,
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "summary": "Journalist Mikael Blomkvist and hacker Lisbeth Salander form an unlikely alliance as they investigate the disappearance of a wealthy industrialist's niece, uncovering dark secrets along the way.",
+      "genreId": 9,
+      "image": "",
+      "pageCount": 672
+    },
+    {
+      "id": 96,
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "summary": "Le Cirque des Rêves, a magical circus, becomes the stage for a competition between two young illusionists, Celia and Marco, who are bound by fate and love.",
+      "genreId": 1,
+      "image": "",
+      "pageCount": 400
+    },
+    {
+      "id": 97,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "summary": "In a dystopian future, Katniss Everdeen volunteers to take her sister's place in the Hunger Games, a televised fight to the death, where she must navigate alliances and betrayals to survive.",
+      "genreId": 7,
+      "image": "",
+      "pageCount": 374
+    },
+    {
+      "id": 98,
+      "title": "The Help",
+      "author": "Kathryn Stockett",
+      "summary": "In 1960s Mississippi, Skeeter, a young white woman, decides to write a book from the perspective of the black maids who work for white families, exposing the injustices they face.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 451
+    },
+    {
+      "id": 99,
+      "title": "The Immortal Life of Henrietta Lacks",
+      "author": "Rebecca Skloot",
+      "summary": "This nonfiction book tells the story of Henrietta Lacks, an African American woman whose cells were taken without her consent and became the foundation of groundbreaking medical research.",
+      "genreId": 12,
+      "image": "",
+      "pageCount": 370
+    },
+    {
+      "id": 100,
+      "title": "Dark Matter",
+      "author": "Blake Crouch",
+      "summary": "Jason Dessen is abducted and thrust into a parallel universe where his life has taken a different path. Desperate to return to his family, he must confront the dark truths of his own existence.",
+      "genreId": 7,
+      "image": "",
+      "pageCount": 342
+    },
+    {
+      "id": 101,
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "summary": "Set in Nazi-occupied France, two sisters, Vianne and Isabelle, resist the enemy in their own ways—one through passive endurance, the other through active rebellion.",
+      "genreId": 2,
+      "image": "",
+      "pageCount": 440
+    },
+    {
+      "id": 102,
+      "title": "Before We Were Strangers",
+      "author": "Renée Carlino",
+      "summary": "Fifteen years after a heartbreaking breakup, Matt runs into Grace on a New York City street, sparking a journey of rediscovery and second chances.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 320
+    },
+    {
+      "id": 103,
+      "title": "One Day in December",
+      "author": "Josie Silver",
+      "summary": "Laurie spots a man through the bus window on a snowy day in December and feels an instant connection. But when they meet again a year later, he's her best friend's boyfriend.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 416
+    },
+    {
+      "id": 104,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "summary": "Alicia Berenson, a famous painter, shoots her husband and never speaks again. Psychotherapist Theo Faber is determined to unravel the mystery behind her silence and uncover the truth.",
+      "genreId": 13,
+      "image": "",
+      "pageCount": 336
+    },
+    {
+      "id": 105,
+      "title": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "summary": "Rachel, an alcoholic divorcée, becomes obsessed with a couple she sees from the train window every day. When the woman goes missing, Rachel becomes entangled in the investigation.",
+      "genreId": 9,
+      "image": "",
+      "pageCount": 323
+    },
+    {
+      "id": 106,
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "summary": "Kya Clark, known as the 'Marsh Girl,' grows up isolated in the marshes of North Carolina. When a murder investigation brings scrutiny to her quiet life, long-buried secrets are unearthed.",
+      "genreId": 9,
+      "image": "",
+      "pageCount": 384
+    },
+    {
+      "id": 107,
+      "title": "Sharp Objects",
+      "author": "Gillian Flynn",
+      "summary": "Reporter Camille Preaker returns to her hometown to cover the murder of two preteen girls. As she investigates, she confronts her troubled past and dark family secrets.",
+      "genreId": 13,
+      "image": "",
+      "pageCount": 396
+    },
+    {
+      "id": 108,
+      "title": "The Turn of the Key",
+      "author": "Ruth Ware",
+      "summary": "Rowan Caine accepts a nannying job at a luxurious smart home in the Scottish Highlands, but the seemingly perfect job turns into a nightmare as she uncovers dark secrets about the family and the house.",
+      "genreId": 13,
+      "image": "",
+      "pageCount": 336
+    },
+    {
+      "id": 109,
+      "title": "Big Little Lies",
+      "author": "Liane Moriarty",
+      "summary": "In a wealthy coastal town, three women—Madeline, Celeste, and Jane—become friends and are drawn into a web of secrets, lies, and murder at the local school's trivia night.",
+      "genreId": 9,
+      "image": "",
+      "pageCount": 460
+    },
+    {
+      "id": 110,
+      "title": "The Wife Between Us",
+      "author": "Greer Hendricks and Sarah Pekkanen",
+      "summary": "A twisted tale of love, betrayal, and revenge unfolds as Vanessa, the ex-wife, and Nellie, the fiancée, navigate their intertwined lives and dark secrets.",
+      "genreId": 13,
+      "image": "",
+      "pageCount": 352
+    },
+    {
+      "id": 111,
+      "title": "Behind Closed Doors",
+      "author": "B.A. Paris",
+      "summary": "Jack and Grace seem like the perfect couple, but behind closed doors, their marriage is a nightmare of control and manipulation. Grace must find a way to escape before it's too late.",
+      "genreId": 13,
+      "image": "",
+      "pageCount": 352
+    },
+    {
+      "id": 112,
+      "title": "The Last Mrs. Parrish",
+      "author": "Liv Constantine",
+      "summary": "Amber Patterson is determined to rise from her humble beginnings and take the place of Daphne Parrish, the glamorous socialite. But her plan for a perfect life quickly spirals out of control.",
+      "genreId": 13,
+      "image": "",
+      "pageCount": 400
+    },
+    {
+      "id": 113,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "summary": "On their fifth wedding anniversary, Nick's wife, Amy, disappears. As the media circus and police investigation unfold, dark secrets about their marriage come to light.",
+      "genreId": 9,
+      "image": "",
+      "pageCount": 422
+    },
+    {
+      "id": 114,
+      "title": "The Distance Between Us",
+      "author": "Rebecca Yarros",
+      "summary": "Two people from vastly different worlds—Beckett, a wounded soldier, and Paisley, a college student—find unexpected love and healing as they bridge the distance between them.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 384
+    },
+    {
+      "id": 115,
+      "title": "Dear Aaron",
+      "author": "Rebecca Yarros",
+      "summary": "Through letters and emails, Aaron and Ruby form a deep connection while he's deployed overseas. But when he comes home, they must navigate the reality of their relationship.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 358
+    },
+    {
+      "id": 116,
+      "title": "The Last Summer",
+      "author": "Rebecca Yarros",
+      "summary": "A summer romance between Callum, a surf instructor, and Lizzie, a woman with a troubled past, leads to unexpected challenges and revelations that change their lives forever.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 416
+    },
+    {
+      "id": 117,
+      "title": "The Things We Leave Unfinished",
+      "author": "Rebecca Yarros",
+      "summary": "Two love stories unfold—one set in World War II and the other in present-day New York City—connected by a lost manuscript and the pursuit of true love and second chances.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 432
+    },
+    {
+      "id": 118,
+      "title": "Beyond What is Given",
+      "author": "Rebecca Yarros",
+      "summary": "Grayson Masters, a wounded Army helicopter pilot, and Samantha Schultz, a driven cadet at the United States Air Force Academy, embark on a forbidden romance amidst personal and professional challenges.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 320
+    },
+    {
+      "id": 119,
+      "title": "Wilder",
+      "author": "Rebecca Yarros",
+      "summary": "Leah Baxter, a rock climber with a tragic past, and Paxton Wilder, a daredevil snowboarder with a secret, find love and redemption in the adrenaline-fueled world of extreme sports.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 410
+    },
+    {
+      "id": 120,
+      "title": "The Renegade",
+      "author": "Rebecca Yarros",
+      "summary": "Rebecca Yarros delivers a captivating and heartfelt military romance about a former Army Ranger who returns to his hometown to make peace with his past and falls for a woman who challenges everything he thought he knew.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 368
+    },
+    {
+      "id": 121,
+      "title": "Muses & Melodies",
+      "author": "Rebecca Yarros",
+      "summary": "A steamy rockstar romance about a recovering addict who falls for the lead singer of a rock band, as they navigate fame, addiction, and the power of music to heal and inspire.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 352
+    },
+    {
+      "id": 122,
+      "title": "The Things We Leave Unfinished",
+      "author": "Rebecca Yarros",
+      "summary": "Two love stories unfold—one set in World War II and the other in present-day New York City—connected by a lost manuscript and the pursuit of true love and second chances.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 432
+    },
+    {
+      "id": 123,
+      "title": "Legacy of Lies",
+      "author": "Rebecca Yarros",
+      "summary": "Aly, a college student with a traumatic past, and Max, a hockey player with a dark secret, find love and redemption amidst the lies and secrets that threaten to tear them apart.",
+      "genreId": 3,
+      "image": "",
+      "pageCount": 318
+    },
+    {
+      "title": "hello",
+      "author": "hello",
+      "summary": "hello",
+      "genreId": "1",
+      "image": "https://m.media-amazon.com/images/I/61CrGbiVSnL.jpg",
+      "pageCount": 37,
+      "id": 124
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "summary": "\"1984\" is a dystopian novel by George Orwell set in a totalitarian society where the government, led by Big Brother, controls every aspect of people's lives. The story follows Winston Smith, a member of the Party, as he rebels against the oppressive regime. Through Winston's struggles, the novel explores themes of surveillance, propaganda, and the loss of individual freedom. It remains a powerful critique of authoritarianism and a cautionary tale about the dangers of unchecked government control.",
+      "genreId": "4",
+      "image": "https://m.media-amazon.com/images/I/71rpa1-kyvL._AC_UF1000,1000_QL80_.jpg",
+      "pageCount": 300,
+      "id": 125
+    },
+    {
+      "title": "Fourth Wing",
+      "author": "Rebecca Yarros",
+      "summary": "Twenty-year-old Violet Sorrengail was supposed to enter the Scribe Quadrant, living a quiet life among books and history. Now, the commanding general—also known as her tough-as-talons mother—has ordered Violet to join the hundreds of candidates striving to become the elite of Navarre: dragon riders.  But when you’re smaller than everyone else and your body is brittle, death is only a heartbeat away...because dragons don’t bond to “fragile” humans. They incinerate them.  With fewer dragons willing to bond than cadets, most would kill Violet to better their own chances of success. The rest would kill her just for being her mother’s daughter—like Xaden Riorson, the most powerful and ruthless wingleader in the Riders Quadrant.  She’ll need every edge her wits can give her just to see the next sunrise.  Yet, with every day that passes, the war outside grows more deadly, the kingdom's protective wards are failing, and the death toll continues to rise. Even worse, Violet begins to suspect leadership is hiding a terrible secret.  Friends, enemies, lovers. Everyone at Basgiath War College has an agenda—because once you enter, there are only two ways out: graduate or die",
+      "genreId": "1",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1701980900i/61431922.jpg",
+      "pageCount": 498,
+      "id": 126
+    },
+    {
+      "title": "Iron Flame",
+      "author": "Rebecca Yarros",
+      "summary": "Everyone expected Violet Sorrengail to die during her first year at Basgiath War College—Violet included. But Threshing was only the first impossible test meant to weed out the weak-willed, the unworthy, and the unlucky.  Now the real training begins, and Violet’s already wondering how she’ll get through. It’s not just that it’s grueling and maliciously brutal, or even that it’s designed to stretch the riders’ capacity for pain beyond endurance. It’s the new vice commandant, who’s made it his personal mission to teach Violet exactly how powerless she is–unless she betrays the man she loves.  Although Violet’s body might be weaker and frailer than everyone else’s, she still has her wits—and a will of iron. And leadership is forgetting the most important lesson Basgiath has taught her: Dragon riders make their own rules.  But a determination to survive won’t be enough this year.  Because Violet knows the real secret hidden for centuries at Basgiath War College—and nothing, not even dragon fire, may be enough to save them in the end.",
+      "genreId": "1",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1706724269i/90202302.jpg",
+      "pageCount": 640,
+      "id": 127
+    },
+    {
+      "title": "It Happened One Summer",
+      "author": "Tessa Bailey",
+      "summary": "Piper Bellinger is fashionable, influential, and her reputation as a wild child means the paparazzi are constantly on her heels. When too much champagne and an out-of-control rooftop party lands Piper in the slammer, her stepfather decides enough is enough. So he cuts her off, and sends Piper and her sister to learn some responsibility running their late father’s dive bar... in Washington.  Piper hasn’t even been in Westport for five minutes when she meets big, bearded sea captain Brendan, who thinks she won’t last a week outside of Beverly Hills. So what if Piper can’t do math, and the idea of sleeping in a shabby apartment with bunk beds gives her hives. How bad could it really be? She’s determined to show her stepfather—and the hot, grumpy local—that she’s more than a pretty face.  Except it’s a small town and everywhere she turns, she bumps into Brendan. The fun-loving socialite and the gruff fisherman are polar opposites, but there’s an undeniable attraction simmering between them. Piper doesn’t want any distractions, especially feelings for a man who sails off into the sunset for weeks at a time. Yet as she reconnects with her past and begins to feel at home in Westport, Piper starts to wonder if the cold, glamorous life she knew is what she truly wants. LA is calling her name, but Brendan—and this town full of memories—may have already caught her heart. ",
+      "genreId": "3",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1604991895i/55659629.jpg",
+      "pageCount": 397,
+      "id": 128
+    },
+    {
+      "title": "Clytemnestra",
+      "author": "Costanza Casati",
+      "summary": "As for queens, they are either hated or forgotten. She already knows which option suits her best...  You were born to a king, but you marry a tyrant. You stand by helplessly as he sacrifices your child to placate the gods. You watch him wage war on a foreign shore, and you comfort yourself with violent thoughts of your own. Because this was not the first offence against you. This was not the life you ever deserved. And this will not be your undoing. Slowly, you plot.  But when your husband returns in triumph, you become a woman with a choice.  Acceptance or vengeance, infamy follows both. So, you bide your time and force the gods' hands in the game of retribution. For you understood something long ago that the others never did.  If power isn't given to you, you have to take it for yourself.",
+      "genreId": "2",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1656358463i/61361681.jpg",
+      "pageCount": 448,
+      "id": 129
+    },
+    {
+      "title": "Sunbringer",
+      "author": "Hannah Kaner",
+      "summary": "Professional godkiller Kissen and her companions—young noble Inara and knight Elogast—return in a winding adventure in a world overflowing with magic, beauty, and danger.",
+      "genreId": "1",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1698687061i/124941442.jpg",
+      "pageCount": 400,
+      "id": 130
+    },
+    {
+      "title": "Hi",
+      "author": "Hi",
+      "summary": "Hello",
+      "genreId": "1",
+      "image": "",
+      "pageCount": 20,
+      "id": 131
+    },
+    {
+      "title": "Hi",
+      "author": "Hi",
+      "summary": "hi",
+      "genreId": "1",
+      "image": "",
+      "pageCount": 20,
+      "id": 132
+    },
+    {
+      "title": "Hi",
+      "author": "hi",
+      "summary": "hi",
+      "genreId": "1",
+      "image": "",
+      "pageCount": 20,
+      "id": 133
+    },
+    {
+      "title": "hi",
+      "author": "hi",
+      "summary": "hi",
+      "genreId": "2",
+      "image": "",
+      "pageCount": 20,
+      "id": 134
+    },
+    {
+      "title": "hello",
+      "author": "hi",
+      "summary": "hlikasjd",
+      "genreId": "1",
+      "image": "",
+      "pageCount": 1,
+      "id": 135
+    },
+    {
+      "title": "hellooo",
+      "author": "hdwkh",
+      "summary": "weffs",
+      "genreId": "2",
+      "image": "",
+      "pageCount": 20,
+      "id": 136
+    },
+    {
+      "title": "helloooo",
+      "author": "heloooo",
+      "summary": "heloooo",
+      "genreId": "1",
+      "image": "",
+      "pageCount": 2,
+      "id": 137
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "summary": "Guy Montag is a fireman. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television “family.” But when he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people didn’t live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television, Montag begins to question everything he has ever known.",
+      "genreId": "4",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1383718290i/13079982.jpg",
+      "pageCount": 194,
+      "id": 138
+    },
+    {
+      "title": "The Call of The Reed Warbler",
+      "author": "Charles Massy",
+      "summary": "Is it too late to regenerate the earth? Call of the Reed Warbler shows the way forward for the future of our food supply, our Australian landscape and our planet. This ground-breaking book will change the way we think of, farm and grow food. Author and radical farmer Charles Massy explores transformative and regenerative agriculture and the vital connection between our soil and our health. It is a story of how a grassroots revolution – a true underground insurgency – can save the planet, help turn climate change around, and build healthy people and healthy communities, pivoting significantly on our relationship with growing and consuming food.   Using his personal experience as a touchstone – from an unknowing, chemical-using farmer with dead soils to a radical ecologist farmer carefully regenerating a 2000-hectare property to a state of natural health – Massy tells the real story behind industrial agriculture and the global profit-obsessed corporations driving it. He shows – through evocative stories – how innovative farmers are finding a new way and interweaves his own local landscape, its seasons and biological richness.  At stake is not only a revolution in human health and our communities but the very survival of the planet. For farmer, backyard gardener, food buyer, health worker, policy maker and public leader alike, Call of the Reed Warbler offers a tangible path forward for the future of our food supply, our Australian landscape and our earth. It comprises a powerful and moving paean of hope.",
+      "genreId": "4",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1494503291i/34951739.jpg",
+      "pageCount": 448,
+      "id": 139
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "John Doe",
+      "email": "john.doe@att.com",
+      "password": "password",
+      "city": "New York"
+    },
+    {
+      "id": 2,
+      "fullName": "Alice Johnson",
+      "email": "alice.smith@yahoo.com",
+      "password": "securepass",
+      "city": "Los Angeles"
+    },
+    {
+      "id": 3,
+      "fullName": "Michael Johnson",
+      "email": "michael.johnson@hmail.com",
+      "password": "password",
+      "city": "Chicago"
+    },
+    {
+      "id": 4,
+      "fullName": "Emily Brown",
+      "email": "emily.brown@outlook.com",
+      "password": "brownie123",
+      "city": "Houston"
+    },
+    {
+      "id": 5,
+      "fullName": "James Wilson",
+      "email": "james.wilson@aol.com",
+      "password": "password1234",
+      "city": "Phoenix"
+    },
+    {
+      "id": 6,
+      "fullName": "Emma Taylor",
+      "email": "emma.taylor@icloud.com",
+      "password": "tayloredpass",
+      "city": "Philadelphia"
+    },
+    {
+      "id": 7,
+      "fullName": "William Anderson",
+      "email": "william.anderson@protonmail.com",
+      "password": "anderson123",
+      "city": "San Antonio"
+    },
+    {
+      "id": 8,
+      "fullName": "Olivia Martinez",
+      "email": "olivia.martinez@yandex.com",
+      "password": "securepass123",
+      "city": "San Diego"
+    },
+    {
+      "id": 9,
+      "fullName": "Benjamin Hernandez",
+      "email": "benjamin.hernandez@mail.com",
+      "password": "benjaminpass",
+      "city": "Dallas"
+    },
+    {
+      "id": 10,
+      "fullName": "Ava Nelson",
+      "email": "ava.nelson@inbox.com",
+      "password": "nelson123",
+      "city": "San Jose"
+    },
+    {
+      "id": 11,
+      "fullName": "Alexander Carter",
+      "email": "alexander.carter@live.com",
+      "password": "carterpass",
+      "city": "Austin"
+    },
+    {
+      "id": 12,
+      "fullName": "Mia Rivera",
+      "email": "mia.rivera@fastmail.com",
+      "password": "riverapass",
+      "city": "Jacksonville"
+    },
+    {
+      "id": 13,
+      "fullName": "Ethan Peterson",
+      "email": "ethan.peterson@zoho.com",
+      "password": "peterson123",
+      "city": "San Francisco"
+    },
+    {
+      "id": 14,
+      "fullName": "Sophia Cooper",
+      "email": "sophia.cooper@tutanota.com",
+      "password": "cooperpass",
+      "city": "Indianapolis"
+    },
+    {
+      "id": 15,
+      "fullName": "Daniel Reed",
+      "email": "daniel.reed@riseup.net",
+      "password": "reed123",
+      "city": "Columbus"
+    },
+    {
+      "id": 16,
+      "fullName": "Isabella Stewart",
+      "email": "isabella.stewart@protonmail.ch",
+      "password": "stewartpass",
+      "city": "Charlotte"
+    },
+    {
+      "id": 17,
+      "fullName": "Matthew Bailey",
+      "email": "matthew.bailey@cock.li",
+      "password": "baileypass",
+      "city": "San Francisco"
+    },
+    {
+      "id": 18,
+      "fullName": "Charlotte Ross",
+      "email": "charlotte.ross@mailfence.com",
+      "password": "ross123",
+      "city": "Seattle"
+    },
+    {
+      "id": 19,
+      "fullName": "Jackson Morris",
+      "email": "jackson.morris@disroot.org",
+      "password": "morrispass",
+      "city": "Denver"
+    },
+    {
+      "id": 20,
+      "fullName": "Madison Ward",
+      "email": "madison.ward@runbox.com",
+      "password": "ward123",
+      "city": "Washington D.C."
+    },
+    {
+      "id": 21,
+      "fullName": "Clare Harney",
+      "email": "claremharney@gmail.com",
+      "city": "Nashville"
+    },
+    {
+      "id": 22,
+      "fullName": "Kristin Harney",
+      "email": "kesharney@outlook.com",
+      "city": "Nashville"
+    }
+  ],
+  "userBooks": [
+    {
+      "id": 2,
+      "bookId": 15,
+      "userId": 13,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 5,
+      "bookId": 30,
+      "userId": 2,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 6,
+      "bookId": 8,
+      "userId": 20,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 7,
+      "bookId": 45,
+      "userId": 11,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 8,
+      "bookId": 12,
+      "userId": 7,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 10,
+      "bookId": 21,
+      "userId": 19,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 11,
+      "bookId": 19,
+      "userId": 14,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 12,
+      "bookId": 10,
+      "userId": 3,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 13,
+      "bookId": 5,
+      "userId": 6,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 15,
+      "bookId": 14,
+      "userId": 15,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 16,
+      "bookId": 50,
+      "userId": 17,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 17,
+      "bookId": 9,
+      "userId": 12,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 19,
+      "bookId": 11,
+      "userId": 16,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 20,
+      "bookId": 2,
+      "userId": 9,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false
+    },
+    {
+      "id": 21
+    },
+    {
+      "bookId": 2,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 22
+    },
+    {
+      "bookId": 127,
+      "userId": 1,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 26
+    },
+    {
+      "bookId": 129,
+      "userId": 1,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 27
+    },
+    {
+      "bookId": 128,
+      "userId": 1,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 28
+    },
+    {
+      "bookId": 128,
+      "userId": 21,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 29
+    },
+    {
+      "bookId": 48,
+      "userId": 21,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 30
+    },
+    {
+      "bookId": 7,
+      "userId": 21,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 31
+    },
+    {
+      "bookId": 7,
+      "userId": 22,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 32
+    },
+    {
+      "bookId": 8,
+      "userId": 22,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 33
+    },
+    {
+      "bookId": 138,
+      "userId": 22,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 34
+    },
+    {
+      "bookId": 1,
+      "userId": 22,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 35
+    },
+    {
+      "bookId": 139,
+      "userId": 22,
+      "ratingScale": 0,
+      "review": "",
+      "favorite": false,
+      "finishedReading": false,
+      "id": 36
+    }
+  ],
+  "booksOnShelves": [
+    {
+      "id": 1,
+      "bookId": 54,
+      "bookshelfId": 21
+    },
+    {
+      "id": 2,
+      "bookId": 65,
+      "bookshelfId": 42
+    },
+    {
+      "id": 3,
+      "bookId": 64,
+      "bookshelfId": 42
+    },
+    {
+      "id": 5,
+      "bookId": 63,
+      "bookshelfId": 11
+    },
+    {
+      "id": 6,
+      "bookId": 61,
+      "bookshelfId": 21
+    },
+    {
+      "id": 7,
+      "bookId": 60,
+      "bookshelfId": 32
+    },
+    {
+      "id": 8,
+      "bookId": 21,
+      "bookshelfId": 25
+    },
+    {
+      "id": 9,
+      "bookId": 23,
+      "bookshelfId": 25
+    },
+    {
+      "id": 10,
+      "bookId": 22,
+      "bookshelfId": 25
+    },
+    {
+      "id": 11,
+      "bookId": 16,
+      "bookshelfId": 25
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "label": "Fantasy"
+    },
+    {
+      "id": 2,
+      "label": "Historical Fiction"
+    },
+    {
+      "id": 3,
+      "label": "Romance"
+    },
+    {
+      "id": 4,
+      "label": "Classic Literature"
+    },
+    {
+      "id": 5,
+      "label": "Young Adult"
+    },
+    {
+      "id": 6,
+      "label": "Memoir"
+    },
+    {
+      "id": 7,
+      "label": "Science Fiction"
+    },
+    {
+      "id": 9,
+      "label": "Mystery"
+    },
+    {
+      "id": 10,
+      "label": "Horror"
+    },
+    {
+      "id": 11,
+      "label": "Fiction"
+    },
+    {
+      "id": 12,
+      "label": "Biography"
+    },
+    {
+      "id": 13,
+      "label": "Thriller"
+    }
+  ]
+}
