@@ -1,9 +1,20 @@
-# React + Vite
+# Problem
+Sometimes, you just have too many books to track! I created a basic CRUD application to let users add books to their online library, discover new books they may like, and create books they have but don't see on the application's database.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Technologies used
+REACT
+JavaScript
+JSON Server
+HTML
+CSS
 
-Currently, two official plugins are available:
+# Installation and Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# literary-capstone
+Clone this repository as well as the database repository linked above. You will need to have npm installed on your machine
+
+## Installation
+```bash
+npm install
+```
+
+
