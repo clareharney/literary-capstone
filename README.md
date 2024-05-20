@@ -10,17 +10,17 @@ JSON Server
 HTML
 CSS
 
-## Database
-
 
 ## Installation and Setup
 
-Clone this repository as well as the database repository linked above. You will need to have npm installed on your machine
+To clone this repository, you will need to have npm installed on your machine.
 
 ## Installation
 ```bash
 npm install
 ```
+
+## Database Initialization
 
 
 
