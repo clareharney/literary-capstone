@@ -20,7 +20,13 @@ To clone this repository, you will need to have npm installed on your machine.
 npm install
 ```
 
-## Database Initialization
+## Run the Program
+To run this program on your machine, run this command
+
+```bash
+npm run dev
+```
+
 
 
 
