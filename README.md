@@ -20,6 +20,10 @@ To clone this repository, you will need to have npm installed on your machine.
 npm install
 ```
 Open your terminal and navigate to your workspace directory
+```bash
+cd workspace
+```
+
 Clone this repository using the SSH Link
 ```bash
 git clone [SSH link]
